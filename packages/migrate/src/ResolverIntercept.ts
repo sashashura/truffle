@@ -1,4 +1,4 @@
-class ResolverIntercept {
+export class ResolverIntercept {
   constructor(resolver) {
     this.resolver = resolver;
     this.cache = [];
@@ -35,5 +35,3 @@ class ResolverIntercept {
     return this.cache;
   }
 }
-
-module.exports = ResolverIntercept;
