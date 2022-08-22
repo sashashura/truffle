@@ -1,6 +1,6 @@
 const assert = require("chai").assert;
 const { default: Box } = require("@truffle/box");
-const Migrate = require("@truffle/migrate");
+const Migrate = require("@truffle/migrate").default;
 const WorkflowCompile = require("@truffle/workflow-compile");
 const Networks = require("../lib/networks");
 const path = require("path");
